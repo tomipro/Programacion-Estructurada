@@ -1,0 +1,9 @@
+18-03-22 Clase Practica
+
+para caracter o array de caracteres, se escribe en un archivo "stdin"
+fflush limpia ese archivo antes para que lo que ingreses este bien
+
+constante global: #define NOMBRE _
+
+antes de usar rand hay que srand(time(NULL))
+

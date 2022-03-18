@@ -15,26 +15,24 @@ int main(void){
     printf("Ingrese una operacion [+ - * /]: ");
     car = getchar();
 
-    if (car == "+"){
+    if (car == '+'){
         funcion += num1 + num2;
-        // res += funcion;
+        res += funcion;
     }
-    else if (car == "-"){
+    else if (car == '-'){
         funcion += num1 - num2;
-        // res += funcion;
+        res += funcion;
     }
-    else if (car == "*"){
+    else if (car == '*'){
         funcion += num1 * num2;
-        // res += funcion;
+        res += funcion;
     }
-    else if (car == "/"){
+    else if (car == '/'){
         funcion += num1 / num2;
-        // res += funcion;
+        res += funcion;
     }
 
     printf("%d %s %d = %d\n", num1, &car, num2, res);
-    // suma = num1 + num2;
-    // printf("%d\n", suma);
 
     return 0;
 }
