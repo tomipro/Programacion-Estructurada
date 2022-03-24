@@ -1,14 +1,18 @@
 #include <stdio.h>
 
 int main(void){
-    float num;
-    // int redondeo, piso, techo;
 
-    printf("Ingrese un numero real: ");
-    scanf("%d", &num);
+    float real;
 
-    int n = (int)(num - 0.5);
-    printf("%d\n", n);
+    printf("Ingrese numero real: ");
+    scanf("%f", &real);
+
+    int piso = (int) real;
+    printf("%d\n", piso);
+
+    // if ()
+    // printf("%d\n");
+
 
     return 0;
 }
