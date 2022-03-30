@@ -1,0 +1,5 @@
+25-03-22
+
+Arreglo es una secuencia de posiciones en memoria en horizontal
+
+int tiene tamaño de 4 bytes o de 32 bits
