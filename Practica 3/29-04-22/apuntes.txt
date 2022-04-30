@@ -1,0 +1,8 @@
+x.arrC[3]
+*((*px).arrC + 3)
+*((px->arrC) + 3)
+px->arrC[3] //para acceder contenido
+
+memoria dinamica:
+
+sizeof(variable) retorna cantidad de bytes
